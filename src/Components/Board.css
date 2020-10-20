@@ -1,0 +1,12 @@
+.board {
+  position: relative;
+}
+.board__row {
+  display: flex;
+  justify-content: center;
+}
+
+.board__block {
+  width: 40px;
+  height: 40px;
+}

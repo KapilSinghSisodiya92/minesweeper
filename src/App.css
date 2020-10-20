@@ -1,10 +1,23 @@
-.App {
-  text-align: center;
+body {
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-image: url(./Util/bg1.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.app__title {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 @media (prefers-reduced-motion: no-preference) {
